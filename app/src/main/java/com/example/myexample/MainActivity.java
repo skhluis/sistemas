@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
             public void onErrorResponse(VolleyError error) {
 
                 Log.i(TAG, "Error :" + error.toString());
-                texto="Error :";
+                texto="Error :teste";
             }
         });
 
